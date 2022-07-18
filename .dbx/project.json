@@ -7,7 +7,7 @@
         },
         "staging": {
             "profile": "e2-demo-west",
-            "workspace_dir": "/Shared/scarman/staging/dbx/e2e_mlops_staging",
+            "workspace_dir": "/Users/stephen.carman@databricks.com/staging/dbx/e2e_mlops_staging",
             "artifact_location": "dbfs:/Shared/scarman/staging/dbx/projects/e2e_mlops_dbx_staging"
         },
         "prod": {
