@@ -1,17 +1,17 @@
 {
     "environments": {
         "dev": {
-            "profile": "DEFAULT",
+            "profile": "e2-demo-west",
             "workspace_dir": "/Shared/scarman/dev/dbx/e2e_mlops_dev",
             "artifact_location": "dbfs:/Shared/scarman/dev/dbx/projects/e2e_mlops_dbx_dev"
         },
         "staging": {
-            "profile": "DEFAULT",
+            "profile": "e2-demo-west",
             "workspace_dir": "/Shared/scarman/staging/dbx/e2e_mlops_staging",
             "artifact_location": "dbfs:/Shared/scarman/staging/dbx/projects/e2e_mlops_dbx_staging"
         },
         "prod": {
-            "profile": "DEFAULT",
+            "profile": "e2-demo-west",
             "workspace_dir": "/Shared/scarman/prod/dbx/e2e_mlops_prod",
             "artifact_location": "dbfs:/Shared/scarman/prod/dbx/projects/e2e_mlops_dbx_prod"
         }
