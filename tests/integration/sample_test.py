@@ -8,7 +8,7 @@ from pyspark.dbutils import DBUtils  # noqa
 class SampleJobIntegrationTest(unittest.TestCase):
     def setUp(self):
 
-        self.test_dir = 'dbfs:/tmp/tests/sample/%s' % str(uuid4())
+        self.test_dir = 'dbfs:/Shared/tmp/tests/sample/%s' % str(uuid4())
         self.test_config = {'output_format': 'delta', 'output_path': self.test_dir}
 
         self.job = SampleJob(init_conf=self.test_config)
