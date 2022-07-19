@@ -1,24 +1,19 @@
 {
     "environments": {
         "dev": {
-            "profile": "DEFAULT",
-            "workspace_dir": "/Shared/e2e_mlops/scarman/dev/dbx/e2e_mlops_dev",
-            "artifact_location": "dbfs:/Shared/e2e_mlops/scarman/dev/dbx/projects/e2e_mlops_dbx_dev"
+            "profile": "e2-demo-west",
+            "workspace_dir": "/Shared/scarman/dev/dbx/e2e_mlops_dev",
+            "artifact_location": "dbfs:/Shared/scarman/dev/dbx/projects/e2e_mlops_dbx_dev"
         },
         "staging": {
-            "profile": "DEFAULT",
-            "workspace_dir": "/Shared/e2e_mlops/scarman/staging/dbx/e2e_mlops_staging",
-            "artifact_location": "dbfs:/Shared/e2e_mlops/scarman/staging/dbx/projects/e2e_mlops_dbx_staging"
+            "profile": "e2-demo-west",
+            "workspace_dir": "/Users/stephen.carman@databricks.com/staging/dbx/e2e_mlops_staging",
+            "artifact_location": "dbfs:/Shared/scarman/staging/dbx/projects/e2e_mlops_dbx_staging"
         },
         "prod": {
-            "profile": "DEFAULT",
-            "workspace_dir": "/Shared/e2e_mlops/scarman/prod/dbx/e2e_mlops_prod",
-            "artifact_location": "dbfs:/Shared/scarman/e2e_mlops/prod/dbx/projects/e2e_mlops_dbx_prod"
-        },
-        "default": {
-            "profile": "DEFAULT",
-            "workspace_dir": "/Shared/dbx/projects/e2e-mlops",
-            "artifact_location": "dbfs:/dbx/e2e-mlops"
+            "profile": "e2-demo-west",
+            "workspace_dir": "/Shared/scarman/prod/dbx/e2e_mlops_prod",
+            "artifact_location": "dbfs:/Shared/scarman/prod/dbx/projects/e2e_mlops_dbx_prod"
         }
     }
 }
